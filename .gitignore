@@ -1,0 +1,89 @@
+# Archivos de Configuración Sensibles
+.env.k
+.env
+.env.local
+.env.*.local
+
+# Modelos Entrenados (Archivos Grandes)
+models_2/
+*.keras
+*.h5
+*.pt
+
+# Dataset (Archivos Grandes)
+Epic and CSCR hospital Dataset/
+
+# Caché y Directorios Temporales
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Entornos Virtuales
+venv/
+ENV/
+env/
+.venv
+env.bak/
+venv.bak/
+
+# IDEs y Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+.jupyter/
+*.ipynb_checkpoints
+
+# Streamlit
+.streamlit/
+*.streamlit.json
+
+# Pytest y Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Archivos Generados
+*.log
+*.pot
+*.mo
+*.out
+*.pickle
+*.pkl
+.cache/
+
+# OS
+Thumbs.db
+.DS_Store
