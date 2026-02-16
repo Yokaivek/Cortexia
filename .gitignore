@@ -6,7 +6,7 @@
 
 # Modelos Entrenados (Archivos Grandes)
 models_2/
-*.keras
+# *.keras - tracked by Git LFS
 *.h5
 *.pt
 
