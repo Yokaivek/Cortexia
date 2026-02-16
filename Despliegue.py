@@ -28,7 +28,7 @@ st.set_page_config(
 # RUTAS Y CONSTANTES
 # ===========================
 BASE_DIR = Path(__file__).resolve().parent
-MODEL_PATH = BASE_DIR / "models_2" / "model_0.896.keras"
+MODEL_PATH = BASE_DIR /"model_0.896.keras"
 
 IMG_SIZE = (224, 224)
 CLASS_NAMES = ["Glioma", "Meningioma", "No Tumor", "Pituitary"]
