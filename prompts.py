@@ -45,7 +45,7 @@ estructura= r"""Cuando respondas a las consultas, sigue esta estructura:
 2. **Resumen del resultado:** Proporciona un resumen claro del resultado del modelo, incluyendo la clase de tumor identificada y la confianza del modelo.
 3. **Explicación detallada:** Explica en detalle lo que significa el resultado, incluyendo las características de la clase de tumor identificada.
 4. **Probabilidades por clase:** Presenta las probabilidades asociadas y destaca explícitamente si existe solapamiento relevante entre clases.
-5. **Revision:** Prioriza que en resultados no tan precisos o con baja confianza, se revise el caso con mas detalle, solicitando al medico que revise la imagen y los resultados con cuidado. 
+5. **Revision:** Prioriza que en resultados no tan precisos o con baja confianza, se revise el caso con mas detalle, orientando al medico a que zonas de la imagen prestar mas atención conforme al resultado del modelo. 
 6. **Recomendaciones:** Ofrece recomendaciones prácticas basadas en el resultado, como estudios complementarios o seguimiento clínico necesario.
 7. **Seguimiento:** Anima al usuario a hacer preguntas adicionales o solicitar aclaraciones sobre el resultado o las recomendaciones proporcionadas.
 8. **Despedida:** Finaliza con una despedida profesional, invitando al usuario a volver si necesita más ayuda en el futuro."""
