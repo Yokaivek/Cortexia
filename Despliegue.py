@@ -14,8 +14,14 @@ from prompts import promp_fuerte
 # ===========================
 # CONFIGURACIÓN GENERAL
 # ===========================
-load_dotenv(".env.k")  
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY")) #Carga la clave de API desde el archivo .env.k
+# Carga API key desde: 1) Streamlit Secrets (producción), 2) .env.k (desarrollo local)
+if "OPENAI_API_KEY" in st.secrets:
+    api_key = st.secrets["OPENAI_API_KEY"]
+else:
+    load_dotenv(".env.k")
+    api_key = os.getenv("OPENAI_API_KEY")
+
+client = OpenAI(api_key=api_key)
 
 #Titulo del sistema 
 st.set_page_config(
